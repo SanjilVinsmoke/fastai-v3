@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1-18DsVTjEDY8KDHKgO4JLEyA7gcv3Zq4/view?usp=sharing'
+export_file_url = 'https://www.dropbox.com/s/v5z5df8z4tg0dbm/export.pkl?raw=1'
 export_file_name = 'export.pkl'
 
 classes = ['benign', 'malignant']
